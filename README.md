@@ -23,7 +23,7 @@ Because alchemical terminology is so confusing both historical and modern reader
     - `<ab>` elements that resulted in a nesting error when entries spanned more than one page.
     - The `<facsimile>` information that cluttered the document for a book this size (but may be reintroduced from the original file if needed at a later date, the `<pb/>` still contain the relevant ids.
     - It also seems that the alphabetical indexing was removed.
-    - OCR junk (`digitized by Google`) was removed.
+    - OCR junk (such as 'digitized by Google') was removed. Otherwise, some OCR errors may have been corrected but the OCR is not fully proof-read. 
   - Page headers and page numbering were encoded as `<fw>`.
   - For structuring the entries, structural characteristics of the text, such as the presence of 'id est' (indicating a definition) were used to find the beginning of new entries (however, unfortunately, not all entries are structured exactly the same).
   - `<form>` was assigned the `@type` 'phrase' or 'lemma' depending on whether it was a word or multi-word entity (however, in cases where this attribute was missing, this was later (2024-12-12) automatically made into 'lemma' by use of regex). In the case of variants, 'variant' was assigned but it seems that many of the more detailed encodings (that go beyond identifying the entry, a definition, a lemma or a text bit in German, was not done consistently throughout the whole text. In case a variant with only minor orthographic variation appeared after the lemma, `<orth>` was used. `<def>` was used in case something seemed like a definition - in cases where this wasn't clear, either only `<sense>` was used or `<note>` elements were added.
