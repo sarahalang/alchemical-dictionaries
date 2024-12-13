@@ -3,7 +3,7 @@ This repository contains TEI-XML and RDF resources for alchemical dictionaries (
 
 # The dictionaries
 Because alchemical terminology is so confusing both historical and modern readers turned to dictionaries. Examples to be included here are: 
-- Martin Ruland, *Lexicon Alchemiae* sive dictionarium alchemisticum cum obscuriorum verborum et rerum hermeticarum tum Theophrast-Paracelsicarum phrasium planam explanationem continens. Auctore Martino Rulando, philosophiae et medicinae doctore et Caesareae Maiestatis personae sacerrimae medico etc., Frankfurt am Main 1612. Using data based on the Transkribus output from the NOSCEMUS project: [NOSCEMUS wiki](https://wiki.uibk.ac.at/noscemus/Lexicon_Alchemiae). [This is the Transkribus 'digital sourcebook'](https://transkribus.eu/r/noscemus/#/documents/668514), i.e. (messy, uncorrected) OCR output of the text alongside the facsimile images.
+- Martin Ruland, *Lexicon Alchemiae* sive dictionarium alchemisticum cum obscuriorum verborum et rerum hermeticarum tum Theophrast-Paracelsicarum phrasium planam explanationem continens. Auctore Martino Rulando, philosophiae et medicinae doctore et Caesareae Maiestatis personae sacerrimae medico etc., Frankfurt am Main 1612. Using data based on the Transkribus output from the NOSCEMUS project: [NOSCEMUS wiki](https://wiki.uibk.ac.at/noscemus/Lexicon_Alchemiae). [This is the Transkribus 'digital sourcebook'](https://transkribus.eu/r/noscemus/#/documents/668514), i.e. (messy, uncorrected) OCR output of the text alongside the facsimile images. The Transkribus output from the Noscemus GM HTR model (without `<facsimile>`) can still be seen here: `2022_Ruland_ohne_linebreaks_und_facs-lauftitel-entfernt.xml`
 
 
 # Things to do (Ruland1612)
