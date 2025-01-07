@@ -148,18 +148,15 @@
                     <!-- ________________________________________________________________________________ -->
                     
                     <div>
-                        <p>TODO create alphabetical index with # links to jump to the beginning of any chosen letter. <br />
-                            Without using xsl:sort, the order is off - this may indicate problems in the data. TODO check.</p>
-                        <ul>
-                            <xsl:for-each select="distinct-values(//t:entry[@type]/@type)">
-                                <xsl:sort/>
-                                <li>
-                                    <a class="alphabetical-index" href="#">
-                                        <!-- TODO create linking: this does not yet do anything -->
-                                        <xsl:value-of select="."/>
-                                    </a>
-                                </li>
-                            </xsl:for-each>
+                            <ul>
+                                <xsl:for-each select="//t:milestone">
+                                    <li>
+                                        <a class="alphabetical-index" href="#{@n}">
+                                            <!-- TODO create linking: this does not yet do anything -->
+                                            <xsl:value-of select="@n"/>
+                                        </a>
+                                    </li>
+                                </xsl:for-each>
                         </ul>
                     </div>
                     <!-- ________________________________________________________________________________ -->
@@ -227,6 +224,11 @@
         </p>
     </xsl:template>
     
+    <xsl:template match="t:milestone">
+        <p id="{@n}"> <!-- TODO would it be better to use some other element here? -->
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
     
     <!-- TODO adding the lbs as br makes the document really long and confusing, thus omitting for now -->
     
