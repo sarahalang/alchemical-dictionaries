@@ -1114,7 +1114,7 @@
 
         <fw type="pageNum">11</fw>
         <lb/>
-        <fw>RVLANDI PHIL. ET MEDICI. </fw>
+        <fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw>
         <lb/>
         <entry>
           <dictScrap>
@@ -1382,7 +1382,7 @@
                 aerugo aurifabrorum ni¬<pb facs="#facs_28" n="28" xml:id="img_0028"/>
                 <!--<ab facs="#facs_28_r2">-->
                 <lb/>
-                <fw>RVLANDI PHIL. ET MEDICI. </fw>
+                <fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw>
                 <fw type="pageNum">15</fw>
                 <lb/> hil aliud, quam factitia chrysocolla, &amp; hanc Plin. Chrysocollae
                 <lb/>nomine complectitur l. 33. c. 5. Consule &amp; eundem l. 34. c. 11. &amp; 12.
@@ -1880,7 +1880,7 @@
               mundi centro ducito¬<lb/>riginem, terraque vt olla continet. Verum non caret suis
               spiraculis, cir <lb/>cum <pb facs="#facs_34" n="34" xml:id="img_0034"/>
               <!--<ab facs="#facs_34_r1"/>-->
-              <fw>RVLANDI PHIL. ET MEDICI. </fw><fw type="pageNum">21</fw>
+              <fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw><fw type="pageNum">21</fw>
               <lb/>cunterre globum hiantib. per quae modo per hoc, iam demum per aliudvitam, &amp;
               <lb/>nutrimentum haurit ex aere. Si vero suis carent spiraminibus, <lb/>haud aliter
               quam de ollari mulierum igne fiat necessum est. <lb/>Item Aethna omnes minerae
@@ -1978,7 +1978,7 @@
         <pb facs="#facs_36" n="36" xml:id="img_0036"/>
         <!--<ab facs="#facs_36_r1"/>-->
         <lb/>
-        <fw>RVLANDI PHIL. ET MEDICI. </fw>
+        <fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw>
         <fw type="pageNum">23</fw>
         <lb/>
         <entry>
@@ -2230,7 +2230,7 @@
         </entry>
         <pb facs="#facs_38" n="38" xml:id="img_0038"/>
         <!--<ab facs="#facs_38_r1"/>-->
-        <fw>RVLANDI PHIL. ET MEDICI. </fw>
+        <fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw>
         <fw type="pageNum">25</fw>
         <lb/>
         <entry>
@@ -3518,15 +3518,10 @@
               <fw type="pageNum">33</fw>
               <fw>RVLANDI PHILOS. ET MEDICI</fw>
               <lb/> Simplex , vulgare <lb/>nigrum. </sense>
-          </dictScrap>
-        </entry>
-        <entry>
-          <dictScrap>
+
             <form type="lemma">Album <lb/>perscriptum</form> . <lb/>
             <sense>in libro de mineralibus. Alii has species aluminum ponunt.</sense>
-          </dictScrap>
-        </entry>
-        <lb/>
+
         <note>1. Alumen fossue, <cit type="translation" xml:lang="de" style="font-variant: fraktur">
             <cit>
               <quote>Alaunfolg</quote>
@@ -3723,6 +3718,8 @@
               <quote>Ein schwartzer Gang darinn ein weisse Alaun folge.</quote>
             </cit>
           </cit></note>
+          </dictScrap>
+        </entry>
         <entry>
           <dictScrap>
             <form type="lemma">Alumen</form> , <sense><def>id est, Antimonium. </def></sense>
@@ -5150,7 +5147,7 @@
               hydrargyrus; <lb/>quemadmodum &amp; alia interdum idem sustinent munus, vt <pb
                 facs="#facs_64" n="64" xml:id="img_0064"/>
               <!--<ab facs="#facs_64_r1"/>-->
-              <fw>RVLANDI PHIL. ET MEDICI. </fw><fw type="pageNum">51</fw>
+              <fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw><fw type="pageNum">51</fw>
               <lb/>lixiuia, aquae stillatitiae, praesertim mellis; item integra aquo¬<lb/>sa, ex
               quibus extrahitur, vt vinum acetum, succus, &amp;c. As¬<lb/>sueuit autem &amp; vulgus
               distinguere inter stillatitias simplici¬<lb/>ter ita dictas, &amp; illas corrosiuas.
@@ -5314,7 +5311,7 @@
               omnibus, artifex, &amp; medicus. Item archiatros, <lb/>supremus naturae medicus, qui
               rei cuique suum Archeum <pb facs="#facs_66" n="66" xml:id="img_0066"/>
               <!--<ab facs="#facs_66_r1"/>-->
-              <fw>RVLANDI PHIL. ET MEDICI. </fw><fw type="pageNum">53</fw>
+              <fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw><fw type="pageNum">53</fw>
               <lb/>peculiarem, &amp; membro cuilibet occulte per Arem distri¬<lb/>buit. Item Archeus
               primus in natura, vis est occultissima, res <lb/>omnes producens ex Iliaste, diuina
               virtute nimirum suffulta <lb/>duntaxat. Vel: Archeos species inuisibilis est oberrans,
@@ -9533,7 +9530,7 @@
         <pb facs="#facs_120" n="120" xml:id="img_0120"/>
         <!--<ab facs="#facs_120_r1"/>-->
         <lb/>
-        <fw>RVLANDI PHIL. ET MEDICI. </fw>
+        <fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw>
         <fw type="pageNum">107</fw>
         <entry>
           <dictScrap>
@@ -10024,7 +10021,7 @@
                 fiat <lb/>aes, cuius species illa natiua Cadmia, quam Cobaltum dici¬<lb/>mus. <pb
                   facs="#facs_130" n="130" xml:id="img_0130"/>
                 <!--<ab facs="#facs_130_r1"/>-->
-                <lb/><fw>RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">117</fw>
+                <lb/><fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">117</fw>
                 <lb/>mus. De quo pyrite etiam fit optima Cadmia illa factitia¬<lb/>3. Quae
                 reperiatur in mineris metallorum, maxime aeris. Et <lb/>haec est Cadmia natiua, de
                 qua nos egimus. Ita vides, quam <lb/>sint haec confusa, &amp; quod idem semel bisue
@@ -10508,7 +10505,7 @@
         <pb facs="#facs_140" n="140" xml:id="img_0140"/>
         <!--<ab facs="#facs_140_r1"/>-->
         <lb/>
-        <fw>RVLANDI PHIL. ET MEDICI. </fw>
+        <fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw>
         <lb/>
         <fw type="pageNum">127</fw>
         <lb/>
@@ -11428,7 +11425,7 @@
             <sense>est residentia viscosa manens in fundo lactis <pb facs="#facs_148" n="148"
                 xml:id="img_0148"/>
               <!--<ab facs="#facs_148_r1"/>-->
-              <lb/><fw>RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">135</fw>
+              <lb/><fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">135</fw>
               <lb/>ex caseo defluentis, <cit type="translation" xml:lang="de"
                 style="font-variant: fraktur">
                 <cit>
@@ -12332,7 +12329,7 @@
         <pb facs="#facs_158" n="158" xml:id="img_0158"/>
         <!--<ab facs="#facs_158_r1"/>-->
         <lb/>
-        <fw>RVLANDI PHIL. ET MEDICI. </fw>
+        <fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw>
         <lb/>
         <fw type="pageNum">145</fw>
         <lb/>
@@ -12422,7 +12419,7 @@
               crassescente limo, rigoribus hybernis, vsque in duri¬<pb facs="#facs_160" n="160"
                 xml:id="img_0160"/>
               <!--<ab facs="#facs_160_r1"/>-->
-              <lb/><fw>RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">147</fw>
+              <lb/><fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">147</fw>
               <lb/>tiem pumicis, laudatiorem in aerariis metallis, proximam in ar¬<lb/>gentariis,
               tertiam aurariam, quartam plumbariam. In suma Crysocol¬<lb/>lam venam putrem dicit.
               Porro &amp; factitiae id nomen tribuit <lb/>cum Gal. &amp; in asperam, mediam &amp;
@@ -13739,7 +13736,7 @@
                 facs="#facs_180" n="180" xml:id="img_0180"/>
               <!--<ab facs="#facs_180_r1"/>-->
               <lb/><fw type="pageNum">167</fw>
-              <lb/><fw>RVLANDI PHIL. ET MEDICI. </fw>
+              <lb/><fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw>
               <lb/>sunt colliquationis, licet ministret illis confusio obiter, cum <lb/>&amp; sine
               confusione possent congredi. </sense>
           </dictScrap>
@@ -14019,7 +14016,7 @@
                 n="184" xml:id="img_0184"/>
               <!--<ab facs="#facs_184_r1"/>-->
               <lb/><fw type="pageNum">171</fw>
-              <lb/><fw>RVLANDI PHIL. ET MEDICI. </fw>
+              <lb/><fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw>
               <lb/><hi rend="italic">—Videas lapidescere Sarni <lb/>Coeruleo sub fonte alnum,
                 filicisque maniplos, <lb/>Et paleae intortos lento cum vimine cuimos.</hi>
               <lb/>Nam sicuti planta coralliorum aere congelata, fit lapis: ita alnus <lb/>&amp;
@@ -14091,7 +14088,7 @@
               exsistentibus. Fieri autem glutinosa &amp; humida <lb/>viscositate terrae, adhaerente
               lapidibus, quae condensata sit, <pb facs="#facs_186" n="186" xml:id="img_0186"/>
               <!--<ab facs="#facs_186_r1"/>-->
-              <lb/><fw>RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">173</fw>
+              <lb/><fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">173</fw>
               <lb/>tum propria, tum maris caliditate &amp; siccitate, &amp; transmutata <lb/>in
               substantiam lapideam: ita, vt quod maiorem habeat aquo¬<lb/>sitatem, fiat candidum,
               seu album frigidius rubro, &amp; sic fieri <lb/>a natura in modum ramorum arborum. His
@@ -14577,7 +14574,7 @@
         <pb facs="#facs_192" n="192" xml:id="img_0192"/>
         <!--<ab facs="#facs_192_r1"/>-->
         <lb/>
-        <fw>RVLANDI PHIL. ET MEDICI. </fw>
+        <fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw>
         <lb/>
         <fw type="pageNum">179</fw>
         <lb/>
@@ -15401,7 +15398,7 @@
                 xml:id="img_0198"/>
               <!--<ab facs="#facs_198_r1"/>-->
               <lb/><fw type="pageNum">185</fw>
-              <lb/><fw>RVLANDI PHIL. ET MEDICI. </fw>
+              <lb/><fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw>
               <lb/>flauum est, colore ad misy, accedit: Sed non est ita aridum <lb/>&amp; splendens.
               Eructat ex ipsa terra. Illud colligitur è sarmen¬<lb/>tis, &amp; sole aduritur, inde
               bis coctum dicitur. Hoc natiuum <lb/>aliquo modo est in vsu apud nonnullos chirurgos.
@@ -15837,7 +15834,7 @@
         <pb facs="#facs_204" n="204" xml:id="img_0204"/>
         <!--<ab facs="#facs_204_r1"/>-->
         <lb/>
-        <fw>RVLANDI PHIL. ET MEDICI. </fw>
+        <fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw>
         <lb/>
         <fw type="pageNum">191</fw>
         <lb/>
@@ -16202,7 +16199,7 @@
               remotius a suo toto <lb/>recedunt. Hinc fit, quia principia rerum naturalium in <pb
                 facs="#facs_208" n="208" xml:id="img_0208"/>
               <!--<ab facs="#facs_208_r1"/>-->
-              <lb/><fw>RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">195</fw>
+              <lb/><fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">195</fw>
               <lb/>se continent omnia potentialiter. Verissima est igitur Spagi¬<lb/>rorum sententia
               de occultę naturae ad manifestam &amp; e con¬<lb/>tra diuersitate. </sense>
           </dictScrap>
@@ -16344,7 +16341,7 @@
                   xml:id="img_0210"/>
                 <!--<ab facs="#facs_210_r1"/>-->
                 <lb/><fw type="pageNum">197</fw>
-                <lb/><fw>RVLANDI PHIL. ET MEDICI. </fw>
+                <lb/><fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw>
                 <lb/>tur. Vterque hic modus in rebus grauiores, &amp; tenaciores spi¬<lb/>ritus
                 referentibus vsum suum habet. </def></sense>
           </dictScrap>
@@ -17685,7 +17682,7 @@
                 </cit>
                 <pb facs="#facs_224" n="224" xml:id="img_0224"/>
                 <!--<ab facs="#facs_224_r1"/>-->
-                <lb/><fw>RVLANDI PHIL. ET MEDICI. </fw><fw type="pageNum">211</fw>
+                <lb/><fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw><fw type="pageNum">211</fw>
                 <lb/>4. Desilientia de massa ferrea calida, quando densatur, &amp; <lb/>pulsatum
                 malleis ligneis in massam redigitur, <cit type="translation" xml:lang="de"
                   style="font-variant: fraktur">
@@ -17820,7 +17817,7 @@
                 firmatam conditionem praeparat, quam etiam ante <lb/>praeparationem non magis quam
                 illa habebat, vt fermentum panis <pb facs="#facs_226" n="226" xml:id="img_0226"/>
                 <!--<ab facs="#facs_226_r1"/>-->
-                <lb/><fw>RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">213</fw>
+                <lb/><fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">213</fw>
                 <lb/>est farina firmata in pastam, quae farinam similem, raram &amp;
                 <lb/>discontinuam, in aliam pastam fermentatam adducit. </def></sense>
           </dictScrap>
@@ -18569,7 +18566,7 @@
                 facs="#facs_234" n="234" xml:id="img_0234"/>
               <!--<ab facs="#facs_234_r1"/>-->
               <lb/><fw type="pageNum">221</fw>
-              <lb/><fw>RVLANDI PHIL. ET MEDICI. </fw>
+              <lb/><fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw>
               <lb/>micis salis grandioribus, conspersi.</sense>
           </dictScrap>
         </entry>
@@ -18843,7 +18840,7 @@
                 dilatarique potest, igni imponendis, dirigendisque <pb facs="#facs_236" n="236"
                   xml:id="img_0236"/>
                 <!--<ab facs="#facs_236_r1"/>-->
-                <lb/><fw>RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">223</fw>
+                <lb/><fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">223</fw>
                 <lb/>prunis atque vasis aptum. Est &amp; alia forficum species, qua vasa <lb/>tantum
                 ex igne sustollimus, quae instar forcipis complicatur.</def></sense>
           </dictScrap>
@@ -19782,7 +19779,7 @@
               Tertio niger venis croceis, is communis in Creta. <pb facs="#facs_250" n="250"
                 xml:id="img_0250"/>
               <!--<ab facs="#facs_250_r1"/>-->
-              <lb/><fw>RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">237</fw>
+              <lb/><fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">237</fw>
               <lb/>Quarto, varius in India, quasi sanguine aspersus. Quinto ni¬<lb/>ger similis
               corallo.</sense>
           </dictScrap>
@@ -20411,7 +20408,7 @@
             <form type="lemma">Gluten</form> , <sense>simonia, sinouia est pars corporis
               nobilissima; subtilis, <pb facs="#facs_258" n="258" xml:id="img_0258"/>
               <!--<ab facs="#facs_258_r1"/>-->
-              <lb/><fw>RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">245</fw>
+              <lb/><fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">245</fw>
               <lb/>pura, alba, perspicua, sal resolutum dulce, &amp; humor natura¬<lb/>lis, seu
               liquor in omnibus iuncturis membrorum instar albu¬<lb/>minis ouorum: in qua perspicua
               materia si generetur tarta¬<lb/>rus, ob sal resolutum, quod habet in se quandoque
@@ -20581,7 +20578,7 @@
         <pb facs="#facs_260" n="260" xml:id="img_0260"/>
         <!--<ab facs="#facs_260_r1"/>-->
         <lb/>
-        <fw>RVLANDI PHIL. ET MEDICI. </fw>
+        <fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw>
         <fw type="pageNum">247</fw>
         <lb/>
         <entry>
@@ -21355,7 +21352,7 @@
         <pb facs="#facs_270" n="270" xml:id="img_0270"/>
         <!--<ab facs="#facs_270_r1"/>-->
         <lb/>
-        <fw>RVLANDI PHIL. ET MEDICI. </fw>
+        <fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw>
         <lb/>
         <fw type="pageNum">257</fw>
         <lb/>
@@ -21469,7 +21466,7 @@
                 </cit>
               </cit>. <pb facs="#facs_272" n="272" xml:id="img_0272"/>
               <!--<ab facs="#facs_272_r1"/>-->
-              <lb/><fw>RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">252</fw>
+              <lb/><fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">252</fw>
               <lb/>6. Borea, quae coelo sereno est coerulea, dicta Turcica, <cit type="translation"
                 xml:lang="de" style="font-variant: fraktur">
                 <cit>
@@ -22060,7 +22057,7 @@
               succum herbae simpliciter dicunt, qua tinguntur nunc <lb/>panni, quam vocant Indicum,
               id est, glastum, quod aliud est <pb facs="#facs_280" n="280" xml:id="img_0280"/>
               <!--<ab facs="#facs_280_r2"/>-->
-              <lb/><fw>RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">267</fw>
+              <lb/><fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">267</fw>
               <lb/>domesticum notum Thuringis, quo maxime vtuntur tin¬<lb/>ctores. Vnde &amp; hoc
               factitium indicum, <cit type="translation" xml:lang="de" style="font-variant: fraktur">
                 <cit>
@@ -22719,7 +22716,7 @@
         <pb facs="#facs_286" n="286" xml:id="img_0286"/>
         <!--<ab facs="#facs_286_r1"/>-->
         <lb/>
-        <fw>RVLANDI PHIL. ET MEDICI. </fw>
+        <fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw>
         <fw type="pageNum">273</fw>
         <lb/>
         <entry>
@@ -22961,7 +22958,7 @@
               humor, quasi concretus terrae, qui non re¬<lb/>soluitur, &amp; dum est humor terrae
               crystalli modo glaciatus, &amp; <pb facs="#facs_288" n="288" xml:id="img_0288"/>
               <!--<ab facs="#facs_288_r1"/>-->
-              <lb/><fw>RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">275</fw>
+              <lb/><fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">275</fw>
               <lb/>in lapidem induratus, nostri propterea eum lapidem vocant <lb/>glaciem Mariae.
               Quidam dicant, quod sit ros coelestis ad Lunae <lb/>claritatem positus, in speciem
               lapidis cogulatus ac constri¬<lb/>ctus, praecipuè ille, qui est candidissimus, &amp;
@@ -23111,7 +23108,7 @@
               </cit>
               <pb facs="#facs_290" n="290" xml:id="img_0290"/>
               <!--<ab facs="#facs_290_r1"/>-->
-              <lb/><fw>RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">277</fw>
+              <lb/><fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">277</fw>
               <lb/>Spangenstein. 4. Luteus. 5. Entrochus Hildesheimii <lb/>candidus aequaliter
               teres, qui ex 14. trochitis constat, crusta <lb/>tectis, qua fracta eximuntur, alter
               alteri expositus, <cit type="translation" xml:lang="de" style="font-variant: fraktur">
@@ -24016,7 +24013,7 @@
                 tuberatus.</note>
               <pb facs="#facs_304" n="304" xml:id="img_0304"/>
               <!--<ab facs="#facs_304_r1"/>-->
-              <lb/><fw>RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">291</fw>
+              <lb/><fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">291</fw>
               <lb/><note>Lapides grauidi. 1. Belemnites magnus cinerei coloris, frica¬<lb/>tus olet
                 cornu bouis vstum, &amp; terram in se continet candidam, <lb/><cit>
                   <quote>ein grosser grawer Alpschoß so man in reibet stinckt erlalß ge¬<lb/>brande
@@ -30590,7 +30587,7 @@
               est galena &amp; molybdena. Secundo allusio vocabuli <lb/>testatur idem esse. Nam quod
               Plin. lib. 33. cap. 6. aut Hispani <pb facs="#facs_384" n="384" xml:id="img_0384"/>
               <!-- <ab facs="#facs_384_r1"/>-->
-              <lb/><fw>RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">371</fw>
+              <lb/><fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">371</fw>
               <lb/>galenam vocant, nos iam Glanti dicimus. Non autem galena <lb/>vocatur, vt vult
               Marcellus, interpres Diosc. alias non indo¬<lb/>ctus à Galecia. Nam Plin. negat l. 34.
               c. 16. in Galecia plum¬<lb/>bum nigrum fieri. Quod tamen fit ex galena. Tertio,
@@ -30987,7 +30984,7 @@
         <pb facs="#facs_394" n="394" xml:id="img_0394"/>
         <!-- <ab facs="#facs_394_r2"/>-->
         <lb/>
-        <fw>RVLANDI PHIL. ET MEDICI. </fw>
+        <fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw>
         <fw type="pageNum">381</fw>
         <lb/>
         <entry>
@@ -31843,7 +31840,7 @@
               digitos adurere dicit. vnde &amp; antiqua illa lo¬<lb/>quuntur carmina: <pb
                 facs="#facs_406" n="406" xml:id="img_0406"/>
               <!--<ab facs="#facs_406_r1"/>-->
-              <lb/><fw>RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">393</fw>
+              <lb/><fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">393</fw>
               <lb/><hi rend="italic">Tangi vult leuiter blandaque manaeque tentri, <lb/>Nam pressus
                 nimium digitos tangentis adurit. </hi>
               <lb/>Ego quoad scio pyritem nescio nigrum: deinde non admodum <lb/>periculum feci, an
@@ -31985,7 +31982,7 @@
                   Koͤrnlein von vielfarbichtem <lb/>Kiß</quote>
               </cit>. <pb facs="#facs_408" n="408" xml:id="img_0408"/>
               <!--<ab facs="#facs_408_r1"/>-->
-              <lb/><fw>RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">395</fw>
+              <lb/><fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">395</fw>
               <lb/>5. Glebosus Kutzbachius, argenti &amp; aeris feracissimus, <cit
                 type="translation" xml:lang="de" style="font-variant: fraktur">
                 <cit>
@@ -32410,7 +32407,7 @@
                   <quote> ist der Himmellweder kalt noch warm / weder <pb facs="#facs_414" n="414"
                       xml:id="img_0414"/>
                     <!--<ab facs="#facs_414_r1"/>-->
-                    <lb/><fw>RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">401</fw>
+                    <lb/><fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">401</fw>
                     <lb/>seucht noch trucken, sondern temperirt die Seell gibt Kraffe¬<lb/>ein
                     brennend Wasser vnstoͤrlich aqua vitae. </quote>
                 </cit></def></sense>
@@ -32971,7 +32968,7 @@
               <def> est ignitio, corpora igne viuo reuerberante, &amp; re¬<pb facs="#facs_418"
                   n="418" xml:id="img_0418"/>
                 <!--<ab facs="#facs_418_r1"/>-->
-                <lb/><fw>RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">405</fw>
+                <lb/><fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">405</fw>
                 <lb/>percutiente in calcem subtiliorem reducens: estque clausa <lb/>vel aperta.
               </def></sense>
           </dictScrap>
@@ -33487,7 +33484,7 @@
                   allen Dingen <lb/>Vold gesucht haben. <pb facs="#facs_424" n="424"
                     xml:id="img_0424"/>
                   <!--<ab facs="#facs_424_r1"/>-->
-                  <lb/><fw>RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">411</fw>
+                  <lb/><fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">411</fw>
                   <lb/>6. Alles nun was du wilt erhoͤhen und endern / das mach zu Saltze <lb/>onnd
                   Alaunsvnnd diß ist der Schluͤssel, das bereit Saltz calci¬<lb/>niren. <lb/>7.
                   Alles was sich solviren lest / das nimbt Saltz / vnnd Alaun <lb/>Natur ahn sich
@@ -35267,7 +35264,7 @@
                     willsso thue die Koͤtzlen behendt hin¬<pb facs="#facs_446" n="446"
                       xml:id="img_0446"/>
                     <!--<ab facs="#facs_446_r2"/>-->
-                    <lb/><fw>RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">433</fw>
+                    <lb/><fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">433</fw>
                     <lb/>wegstuͤrtze flugs ein gluenden Tiegel darauff vnnd laß es
                     er¬<lb/>kalten/oder machs anders deines Gefallens nach oder der ge¬<lb/>mein
                     Proceß ist. </quote>
@@ -36622,7 +36619,7 @@
               Adulterinum è Marchia Brandeburgica, quod è resina <lb/>coaluit, quod agyrtae pro
               myrrha vendunt: id colore a vero <pb facs="#facs_466" n="466" xml:id="img_0466"/>
               <!--<ab facs="#facs_466_r1"/>-->
-              <lb/><fw>RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">453</fw>
+              <lb/><fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw><lb/><fw type="pageNum">453</fw>
               <lb/>nihil differt, &amp; accensum habet odorem succini: quod in for¬<lb/>micarum
               tumulis prope achores inuenitur. <lb/>6. Falernum orientale a Prussis vocatur, quod
               accensum <lb/>non habet odorem succini, sed dulcem &amp; aromaticum, &amp;
@@ -39643,7 +39640,7 @@
         <pb facs="#facs_498" n="498" xml:id="img_0498"/>
         <!--<ab facs="#facs_498_r1"/>-->
         <lb/>
-        <fw>RVLANDI PHIL. ET MEDICI. </fw>
+        <fw type="header" place="top-centre">RVLANDI PHIL. ET MEDICI. </fw>
         <lb/>
         <fw type="pageNum">469</fw>
         <lb/>
