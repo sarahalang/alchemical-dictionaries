@@ -1,5 +1,7 @@
 # TODOs
 ## For the Ruland lexicon (Ruland1612)
+### DONE:
+- fixing the major TEI errors, nesting errors etc is now completed. With that being done, I was able to run the transformation to add ids on the improved Lesjak file. Now we can continue working with the final version which I have uploaded to finally replace `Ruland.xml`. 
 
 1. **TEI checking:** 
    - Does the TEI make sense according to the [Dictionaries module](https://tei-c.org/release/doc/tei-p5-doc/en/html/DI.html)? It uses elements like `<entry>` (so far, `@type` for which letter in the dictionary and `@n` which should later become `@xml:id`), `<dictScrap>`, `<sense>`, `<def>` (usually for the Latin definition), `<cit>` (usually contains German text in Fraktur) and some others (but many aren't used consistently and data quality gets worse further into the book). Analyse which elements are used and where/when/how often and come up with suggestions for improvement. I indicated which letter each entry belongs to using `@type` so far - how should such information be encoded according to the guidelines? What to do about the segments in Ancient Greek? (related: are they actually there or are those OCR artifacts?; I added some `<seg type="greek">` when I found some by accident). Do we need u/v or i/j normalization? What should really be used for segments in different languages? For German, so far it's the weird `<cit><quote>` construct that may need changing, for Greek I sometimes used `<seg type="Greek">` which should probably be `<seg xml:lang="el">` or something). 
