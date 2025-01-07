@@ -9,7 +9,8 @@ Because alchemical terminology is so confusing both historical and modern reader
 # Things to do 
 Have now been moved to the [TODOs.md file](https://github.com/sarahalang/alchemical-dictionaries/blob/main/TODOs.md).
 
-# What has already been done (Ruland1612)
+# What has already been done 
+## Ruland 1612
 - removed `<pc>` around each punctuation (which didn't make sense to me but was used to 'hide' nesting problems in the dictionary that would have otherwise not been valid). 
 - added `@type='lemma'` to all entries via regex (this was missing in many cases and I don't think there was a reason for it); TODO the same should probably be done with the attributes indicating German Fraktur snippets (these are missing in the `<cit>` towards the end of the dataset and I also have a feeling there aren't any such elements used for anything other than German snippets, although I might be wrong about this... would need to be checked before replace-all.
 - **preparatory work by Ines Leskak (summer 2023):** went from the Noscemus Transkribus HTR output that didn't contain lots of semantic encoding (mostly `<lb/>`) to a first version of this dictionary roughly following the TEI Dictionary module. This was achieved partly manually and partly using regular-expression-powered search-and-replace.
