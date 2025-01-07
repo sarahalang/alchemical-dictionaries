@@ -1,5 +1,5 @@
 # TODOs
-# For the Ruland lexicon (Ruland1612)
+## For the Ruland lexicon (Ruland1612)
 
 1. **TEI checking:** 
  - Does the TEI make sense according to the [Dictionaries module](https://tei-c.org/release/doc/tei-p5-doc/en/html/DI.html)? It uses elements like `<entry>` (so far, `@type` for which letter in the dictionary and `@n` which should later become `@xml:id`), `<dictScrap>`, `<sense>`, `<def>` (usually for the Latin definition), `<cit>` (usually contains German text in Fraktur) and some others (but many aren't used consistently and data quality gets worse further into the book). Analyse which elements are used and where/when/how often and come up with suggestions for improvement. I indicated which letter each entry belongs to using `@type` so far - how should such information be encoded according to the guidelines? What to do about the segments in Ancient Greek? (related: are they actually there or are those OCR artifacts?). Do we need u/v or i/j normalization?
