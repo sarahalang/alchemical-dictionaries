@@ -8,6 +8,8 @@
     <xsl:output method="html" encoding="utf-8" indent="yes" />
     
     <xsl:template match="/">
+        <!-- ________________________________________________________________________________ -->
+        
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;
         
         </xsl:text>
@@ -128,6 +130,8 @@
                     </div>
                 </nav>
                 
+                <!-- ________________________________________________________________________________ -->
+                
                 <main role="main" class="container">
                     
                     <div class="starter-template">
@@ -141,11 +145,14 @@
                             </input><label><xsl:text>Show persons (dummy because no persons annotated in TEI)</xsl:text></label></li>
                         </ul>
                     </div>
+                    <!-- ________________________________________________________________________________ -->
                     
                     <div>
-                        <p>TODO create alphabetical index with # links to jump to the beginning of any chosen letter</p>
+                        <p>TODO create alphabetical index with # links to jump to the beginning of any chosen letter. <br />
+                            Without using xsl:sort, the order is off - this may indicate problems in the data. TODO check.</p>
                         <ul>
-                            <xsl:for-each select="distinct-values(//t:entry[@type])">
+                            <xsl:for-each select="distinct-values(//t:entry[@type]/@type)">
+                                <xsl:sort/>
                                 <li>
                                     <a class="alphabetical-index" href="#">
                                         <!-- TODO create linking: this does not yet do anything -->
@@ -155,9 +162,13 @@
                             </xsl:for-each>
                         </ul>
                     </div>
+                    <!-- ________________________________________________________________________________ -->
+                    
                     <div>
                         <p>TODO create some sort of header for the TEIheader metadata</p>
                     </div>
+                    <!-- ________________________________________________________________________________ -->
+                    
                     <div>
                         <xsl:apply-templates/>
                     </div>
