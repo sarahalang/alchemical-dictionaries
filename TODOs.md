@@ -2,7 +2,8 @@
 ## For the Ruland lexicon (Ruland1612)
 ### DONE:
 - fixing the major TEI errors, nesting errors etc is now completed. With that being done, I was able to run the transformation to add ids on the improved Lesjak file. Now we can continue working with the final version which I have uploaded to finally replace `Ruland.xml`.
-- added minimal TEI header that should be 
+- added minimal TEI header that should be enough for the data publication.
+- created a simple HTML preview (erroneous and ugly with dummy text remaining but functional).
 
 ### TODO:
 
