@@ -3,24 +3,57 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Ruland, Martin (d. J.) - Lexicon Alchemiae. Frankfurt am Main
-          1612.pdf</title>
-            <author>Ruland, Martin (d. J.) </author>
+            <title type="main">A TEI dictionary encoding of Ruland, Martin (d. J.), Lexicon Alchemiae (Frankfurt am Main 1612)</title>
+            <author>Ruland, Martin (d. J.)</author>
+            <respStmt>
+               <resp when="2021">Creation of the Noscemus GM HTR model 
+                  (<ref>https://www.transkribus.org/en/model/print-latin-texts-15-th-19th-htr</ref>)
+               that was used to generate the initial (messy) HTR transcript in the NOSCEMUS ERC project at University of Innsbruck.</resp>
+               <name>Stefan Zathammer</name>
+            </respStmt>
+            <respStmt>
+               <resp when="2023-07">Creation of an initial TEI version structured according to the TEI dictionary
+                  module as part of her Projektseminar project at Uni Graz, Department of
+                  Digital Humanities, in summer term 2023 (supervised by Sarah Lang). </resp>
+               <name>Ines Lesjak</name>
+            </respStmt>
+            <respStmt>
+               <resp when="2025-01">Cleanup of Lesjak's initial TEI version (correcting errors, adding IDs to entries, slight modifications of encoding) to make it publishable.</resp>
+               <name>Sarah Lang</name>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher>tranScriptorium</publisher>
+            <publisher>Sarah Lang</publisher>
          </publicationStmt>
          <seriesStmt>
-            <title>Noscemus Read&amp;Search</title>
+            <title>Alchemical Dictionaries, <ref>https://github.com/sarahalang/alchemical-dictionaries</ref></title>
          </seriesStmt>
          <sourceDesc>
-            <p>TRP document creator: stefan.zathammer@uibk.ac.at <bibl>Ruland, Martin (d.J.): Lexicon
-            Alchemiae, in: Noscemus Wiki, URL: http://wiki.uibk.ac.at/noscemus/Lexicon_Alchemiae
-            (last revision: 27.05.2021).</bibl> The original OCR for this file was created using the
+            <p>
+               More information on the source can be found in: <bibl>Ruland, Martin (d.J.): Lexicon
+                  Alchemiae, in: Noscemus Wiki, URL: http://wiki.uibk.ac.at/noscemus/Lexicon_Alchemiae
+                  (last revision: 27.05.2021).</bibl> Therein, the source is described as follows:
+               "This is an chymical dictionary comprising c. 500 pages and some 3000–5000 entries, 
+               dedicated to Heinrich Julius, Duke of Braunschweig and Lüneburg. 
+               As the letter of dedication explains, 
+               the work is meant to bring some order into the Babylonian confusion reigning in the realm of alchemy 
+               and thereby to further the latter's study. 
+               The single entries are quite heterogeneous, ranging from simple paraphrases 
+               and explanations (Acetum amincum, id est, album) to more expansive lists of synonyms, 
+               longer lexicon entries and even short learned treatises. Some entries are divided into numerous subentries. 
+               Latin dominates, but German translations, paraphrases and explanations are given in great numbers." 
+               According to the current TEI encoding (and assuming there might be some errors), 
+               the lexicon should have ca. 3200 entries, although some are very long. 
+               
+               The original OCR for this file was created using the
           NOSCEMUS GM in Transkribus as part of the NOSCEMUS ERC project at Innsbruck University by
           Stefan Zathammer. The XML was then improved and structured according to the TEI dictionary
           module by Ines Lesjak as part of her Projektseminar project at Uni Graz, Department of
-          Digital Humanities, in summer term 2023. </p>
+          Digital Humanities, in summer term 2023. The resulting TEI document was subject to major revisions to make it publishable
+            in December 2024 and January 2025 by Sarah Lang (University of Graz).
+            
+            More information on the encoding can be found in: <ref>https://github.com/sarahalang/alchemical-dictionaries</ref>.
+            </p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
