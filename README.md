@@ -1,4 +1,4 @@
-# alchemical-dictionaries
+# Alchemical Dictionaries in TEI-XML
 This repository contains TEI-XML and RDF resources for alchemical dictionaries (like Ruland or Sommerhoff). 
 The goal is to provide data that can be reused or referenced in other projects where alchemical terms are concerned.
 
@@ -6,11 +6,12 @@ The goal is to provide data that can be reused or referenced in other projects w
 
 ---
 
-# The Alchemical Dictionaries repository & its contents
+# The repository and its contents
 
 ## Overview
 Because alchemical terminology is so confusing both historical and modern readers turned to dictionaries. 
 This repository contains TEI XML resources for alchemical dictionaries. 
+
 Alchemical language was notoriously obscure, leading to the creation of dictionaries from the 17th century onwards. 
 Two examples are Ruland's *Lexicon Alchemiae* and Sommerhoff's bilingual Latin-German *Lexicon pharmaceutico-chymicum*, which are available in TEI encodings following the TEI dictionary module in this repository. The repository may be expanded in the future to include additional alchemical dictionaries.
 
@@ -35,6 +36,7 @@ However, the OCR output has not been thoroughly proofread and may contain errors
 ## Contributors
 Both dictionaries were prepared as part of a University of Graz project seminar (2022 and 2023). 
 Rosa Mayer (Sommerhoff dictionary, 2022) and Ines Lesjak (Ruland dictionary, 2023) received the XML output of the high-performing Noscemus GM4 OCR model and applied TEI encoding, partially manually, partially using regular expressions, to generate a basic encoding of the dictionaries according to the TEI dictionary module. The focus was on making the entries addressable by their IDs and headwords, less on the frontmatter or backmatter of the books. 
+
 Since these encodings still contained many errors and lacked entry ids, edits were made by Sarah Lang in 2024-12 to 2025-01 to bring the data to publishable quality and thus, make the data accessible and reusable even though there are of course many more improvements that could be done (but this would make it likely that the data languish for many more years to come rather than being available as a public resource). 
 
 ## Potential Future Work
@@ -49,8 +51,9 @@ Several potential future developments for this repository include:
 ---
 
 # On the dictionaries 
-These descriptions relie on the highly useful [Noscemus wiki](https://wiki.uibk.ac.at/noscemus/Main_Page) (see list of references below). 
+These descriptions rely on the highly useful [Noscemus wiki](https://wiki.uibk.ac.at/noscemus/Main_Page) (see list of references below). 
 The messy OCR that these TEI-dictionary encodings are based on was originally created in the NOSCEMUS ERC project at the University of Innsbruck.
+
 Many thanks to Stefan Zathammer for making this data available for this project. The goal which was to encode alchemical lexica/dictionaries using the TEI dictionary module to make the data accessible for digital humanities research and computational analysis. 
 
 ## Sommerhoff's *Lexicon pharmaceutico-chymicum Latino-Germanicum et Germanico-Latinum* 
@@ -117,7 +120,7 @@ Mayer's project seminar work focused on the TEI encoding of 22 pages from the *L
 ## Ruland's *Lexicon Alchemiae*
 
 ### Source Description
-The *Lexicon Alchemiae* is a chemical dictionary comprising approximately 500 pages and 3,000–5,000 entries (ca. 3200 according to the number of entries in the TEI encoding, although many are exceedingly long). It is dedicated to Heinrich Julius, Duke of Braunschweig and Lüneburg. The letter of dedication outlines the author’s intention to impose order on the "Babylonian confusion" of alchemical terminology and promote the study of alchemy. The *Lexicon Alchemiae* is a cornerstone of alchemical literature, reflecting the state of the alchemical lexicographical endeavour in the early 17th century. Its comprehensive approach and bilingual nature make it a valuable resource for understanding the historical development of alchemical terminology and its intersections with the wider worlds of medicine, metallurgy and natural philosophy.
+The *Lexicon Alchemiae* is a chymical dictionary comprising approximately 500 pages and 3,000–5,000 entries (ca. 3200 according to the number of entries in the TEI encoding, although many are exceedingly long). It is dedicated to Heinrich Julius, Duke of Braunschweig and Lüneburg. The letter of dedication outlines the author’s intention to impose order on the "Babylonian confusion" of alchemical terminology and promote the study of alchemy. The *Lexicon Alchemiae* is a cornerstone of alchemical literature, reflecting the state of the alchemical lexicographical endeavour in the early 17th century. Its comprehensive approach and bilingual nature make it a valuable resource for understanding the historical development of alchemical terminology and its intersections with the wider worlds of medicine, metallurgy and natural philosophy.
 
 **Full Title:** *Lexicon Alchemiae sive dictionarium alchemisticum cum obscuriorum verborum et rerum hermeticarum tum Theophrast-Paracelsicarum phrasium planam explanationem continens. Auctore Martino Rulando, philosophiae et medicinae doctore et Caesareae Maiestatis personae sacerrimae medico etc.*  
 **Author:** Martin Ruland the Younger (*Martin Ruland d.J.*)  
