@@ -1,5 +1,5 @@
 # Alchemical Dictionaries in TEI-XML
-This repository contains TEI-XML and RDF resources for alchemical dictionaries (like Ruland or Sommerhoff). 
+This repository contains TEI-XML resources for alchemical dictionaries (like Ruland or Sommerhoff). 
 The goal is to provide data that can be reused or referenced in other projects where alchemical terms are concerned.
 
 **Things to do** can be found in the [TODOs.md file](https://github.com/sarahalang/alchemical-dictionaries/blob/main/TODOs.md).
