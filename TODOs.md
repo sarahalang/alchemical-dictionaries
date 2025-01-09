@@ -1,14 +1,16 @@
 # TODOs
 
 ## For the Sommerhoff lexicon (Sommerhoff1701)
-- similar to the Ruland tasks that are described below in lots of detail, `<pc>` was removed from the document and `<dictScrap>` introduced in its stead. Unlike in Ruland, headers and pagenumbers are not currently addressable in `<fw>` with respective `@type` but this could presumably automatically be done in an XSL transformation that checks whether the `<fw>` contains digits.
-- The entries were corrected so that the result became a valid TEI document.
+- similar to the Ruland tasks that are described below in lots of detail, `<pc>` was removed from the document and `<dictScrap>` introduced in its stead.
+- **DONE (2025-01)** The entries were corrected so that the result became a valid TEI document.
+- **DONE (2025-01)** A simple TEI header was added (like for Ruland).
+- **TODO** Unlike in Ruland, headers and pagenumbers are not currently addressable in `<fw>` with respective `@type` but this could presumably automatically be done in an XSL transformation that checks whether the `<fw>` contains digits.
 - some IDs were already added in the initial encoding by Mayer, **TODO** although it might make sense to create `@n` as I did with the XSL identity transform for Ruland.
-- **TODO** A simple TEI header should be added (like for Ruland).
 - **TODO** The German and Latin entries should be put into different `<div>`s.
-- **TODO** Create a simple HTML preview for this as well so that one can look at the dictionary a bit better.
+- **TODO** Create a simple HTML preview for this as well so that one can look at the dictionary a bit better. (plus clean up the preview template)
+- **TODO**
 - **TODO** in the future, encoding frontmatter and backmatter as well as the titlePage would be nice.  
-- 
+  
 ## For the Ruland lexicon (Ruland1612)
 ### DONE (2025-01):
 - fixing the major TEI errors, nesting errors etc is now completed. With that being done, I was able to run the transformation to add ids on the improved Lesjak file. Now we can continue working with the final version which I have uploaded to finally replace `Ruland.xml`.
