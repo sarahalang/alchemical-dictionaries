@@ -19,7 +19,7 @@ These resources may be reused in other projects, such as linking them to digital
 Although the data requires further refinement before it can count as a true digital scholarly edition, it is already useful for many academic purposes. By making these resources public, we hope to inspire additional contributions and maybe even collaborative efforts to improve the data based on this first version.
 
 ## Repository contents
-The repository currently contains a raw encoding of Ruland and Sommerhoff dictionaries adhering to the TEI dictionary module. 
+The repository currently contains an encoding of Ruland and Sommerhoff dictionaries adhering to the TEI dictionary module. 
 
 The data provided here is based on the Transkribus output from the University of Innsbruck's NOSCEMUS ERC project (see [NOSCEMUS wiki metadata on Ruland](https://wiki.uibk.ac.at/noscemus/Lexicon_Alchemiae); [this is the Transkribus 'digital sourcebook'](https://transkribus.eu/r/noscemus/#/documents/668514), i.e. (messy, uncorrected) OCR output of the text alongside the facsimile images. The Transkribus output from the Noscemus GM HTR model (without `<facsimile>`) can still be seen in: `2022_Ruland_ohne_linebreaks_und_facs-lauftitel-entfernt.xml`.) 
 While the data is shareable and usable for computational analysis, it does not yet meet the quality standards required for a digital scholarly edition in that it does contain messy HTR output, even if the quality is very high.
