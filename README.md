@@ -6,7 +6,7 @@ The goal is to provide data that can be reused or referenced in other projects w
 
 ---
 
-# The Alchemical Dictionaries repository and its contents
+# The Alchemical Dictionaries repository & its contents
 
 ## Overview
 Because alchemical terminology is so confusing both historical and modern readers turned to dictionaries. 
@@ -16,15 +16,6 @@ Two examples are Ruland's *Lexicon Alchemiae* and Sommerhoff's bilingual Latin-G
 
 These resources may be reused in other projects, such as linking them to digital scholarly editions to provide contemporary definitions for historical terms. 
 Although the data requires further refinement before it can count as a true digital scholarly edition, it is already useful for many academic purposes. By making these resources public, we hope to inspire additional contributions and maybe even collaborative efforts to improve the data based on this first version.
-
-## Potential Future Work
-Several potential future developments for this repository include:
-1. Develop a term annotator tool to automatically identify terms in a given XML file that are covered by the dictionaries. This would allow automatic annotation of digital scholarly editions with links to these dictionaries.
-2. Provide machine-generated translations of terms into English. This feature would support researchers with limited proficiency in Latin while still referencing the original Latin source. It should, of course, indicate clearly that translations are machine-generated.
-3. Create RDF representations for terms and their interrelations. This would require several rounds of data corrections and improvements before reliable RDF can be automatically extracted from the data.
-4. Many entries in the dictionaries cross-reference other terms. Encoding this linking process could significantly enhance the data's usability: For example, in *Sommerhoff*, German-to-Latin translations exist for Latin terms. A script could be used to generate identifiers for these entries semi-automatically. An XML editors like Oxygen could be ued to help autocomplete links/ref after initial id-assignments are made in the Latin part of the dictionary.
-5. Expand the detailed encoding of glyphs and symbols. For instance, *Sommerhoff* contains alchemical symbols not part of Unicode. Such symbols are currently only encoded for the first 22 pages. Since these symbols are not part of Unicode and the OCR has accordingly not captured them, this would require substantial work.
-6. Add more dictionaries to the repository.
 
 ## Repository contents
 The repository currently contains a raw encoding of Ruland and Sommerhoff dictionaries adhering to the TEI dictionary module. 
@@ -45,6 +36,15 @@ However, the OCR output has not been thoroughly proofread and may contain errors
 Both dictionaries were prepared as part of a University of Graz project seminar (2022 and 2023). 
 Rosa Mayer (Sommerhoff dictionary, 2022) and Ines Lesjak (Ruland dictionary, 2023) received the XML output of the high-performing Noscemus GM4 OCR model and applied TEI encoding, partially manually, partially using regular expressions, to generate a basic encoding of the dictionaries according to the TEI dictionary module. The focus was on making the entries addressable by their IDs and headwords, less on the frontmatter or backmatter of the books. 
 Since these encodings still contained many errors and lacked entry ids, edits were made by Sarah Lang in 2024-12 to 2025-01 to bring the data to publishable quality and thus, make the data accessible and reusable even though there are of course many more improvements that could be done (but this would make it likely that the data languish for many more years to come rather than being available as a public resource). 
+
+## Potential Future Work
+Several potential future developments for this repository include:
+1. Develop a term annotator tool to automatically identify terms in a given XML file that are covered by the dictionaries. This would allow automatic annotation of digital scholarly editions with links to these dictionaries.
+2. Provide machine-generated translations of terms into English. This feature would support researchers with limited proficiency in Latin while still referencing the original Latin source. It should, of course, indicate clearly that translations are machine-generated.
+3. Create RDF representations for terms and their interrelations. This would require several rounds of data corrections and improvements before reliable RDF can be automatically extracted from the data.
+4. Many entries in the dictionaries cross-reference other terms. Encoding this linking process could significantly enhance the data's usability: For example, in *Sommerhoff*, German-to-Latin translations exist for Latin terms. A script could be used to generate identifiers for these entries semi-automatically. An XML editors like Oxygen could be ued to help autocomplete links/ref after initial id-assignments are made in the Latin part of the dictionary.
+5. Expand the detailed encoding of glyphs and symbols. For instance, *Sommerhoff* contains alchemical symbols not part of Unicode. Such symbols are currently only encoded for the first 22 pages. Since these symbols are not part of Unicode and the OCR has accordingly not captured them, this would require substantial work.
+6. Add more dictionaries to the repository.
 
 ---
 
