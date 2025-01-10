@@ -4,7 +4,7 @@ The goal is to provide data that can be reused or referenced in other projects w
 
 **Things to do** can be found in the [TODOs.md file](https://github.com/sarahalang/alchemical-dictionaries/blob/main/TODOs.md).
 
-The most current versions of the dicitonaries are:
+The current final versions of the TEI-XML-encoded dicitonaries are:
 1. Ruland 1612: `alchemical-dictionaries/Ruland1612/Ruland.xml`
 2. Sommerhoff 1702: `alchemical-dictionaries/Lexikon_Sommerhoff_Mayer2022_slighlyEdited2025-01-08.xml`
 
