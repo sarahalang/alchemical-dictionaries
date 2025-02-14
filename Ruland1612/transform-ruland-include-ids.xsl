@@ -18,6 +18,15 @@
             </text>
         </TEI>
     </xsl:template>
+
+    <!-- 
+    2025-05: Brief documentation note for this XSLT stylesheet
+    This XSLT template was used in 2024-12/2025-01 to automatically add IDs and alphabetical indexing to the entries in Ruland's dictionary. 
+    In the process, underlying errors in the original file had to be corrected to result in valid TEI-XML. 
+    At this point, this XSLT does not need to be run on the Ruland data again, however, 
+    one should probably adapt it to Sommerhoff to also run in it there to automatically add ids.
+    But careful: Ruland has two dict-divs (Latin and German) and the first entries already have xml:ids. 
+    -->
     
     <!-- 
     distinct-values(//@*/name()) - What types of attributes are there?
