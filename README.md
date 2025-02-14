@@ -2,6 +2,10 @@
 This repository contains TEI-XML resources for alchemical dictionaries (like Ruland or Sommerhoff). 
 The goal is to provide data that can be reused or referenced in other projects where alchemical terms are concerned.
 
+A current version of this dataset was released under a [CC-BY license](https://creativecommons.org/licenses/by/4.0/legalcode) on Zenodo: [https://zenodo.org/records/14638445](https://zenodo.org/records/14638445) and discussed in a data paper in a [Journal of Humanities Data special issue on data-driven history of ideas](https://openhumanitiesdata.metajnl.com/collections/historyofideas).  
+
+---
+
 **Things to do** can be found in the [TODOs.md file](https://github.com/sarahalang/alchemical-dictionaries/blob/main/TODOs.md).
 
 The current final versions of the TEI-XML-encoded dicitonaries are:
