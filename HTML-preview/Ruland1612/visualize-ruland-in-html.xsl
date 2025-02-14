@@ -6,6 +6,13 @@
     exclude-result-prefixes="xs"
     version="2.0">
     <xsl:output method="html" encoding="utf-8" indent="yes" />
+
+<!-- 2025-02: Brief documentation note for this XSLT file
+    This contains a simple, unfinished transformation to create a basic, ugly HTML preview for the Ruland dictionary TEI-XSL.
+    These dictionary files are too long to keep an overview without it. 
+    A copy of this should also be adapted to the Sommerhoff dictionary later to visualize it.
+    Maybe the template can be made a bit nicer to that it becomes actually usable as a mini "data viewer" website.
+    -->
     
     <xsl:template match="/">
         <!-- ________________________________________________________________________________ -->
