@@ -5,7 +5,7 @@ The goal is to provide data that can be reused or referenced in other projects w
 A current version of this dataset was released under a [CC-BY license](https://creativecommons.org/licenses/by/4.0/legalcode) on Zenodo ([https://zenodo.org/records/14638445](https://zenodo.org/records/14638445)) and discussed in a data paper in a [Journal of Humanities Data special issue on data-driven history of ideas](https://openhumanitiesdata.metajnl.com/collections/historyofideas).  
 
 A data paper about this dataset was published in: 
-Lang, Sarah (2025) . "Towardsa Data-Driven History of Lexicography: Two Alchemical Dictionaries in TEI-XML". *Journal of Open Humanities Data*, 11: 20, pp. 1–6. DOI: https://doi.org/10.5334/johd.303 	
+Lang, Sarah (2025) . "Towards a Data-Driven History of Lexicography: Two Alchemical Dictionaries in TEI-XML". *Journal of Open Humanities Data*, 11: 20, pp. 1–6. DOI: https://doi.org/10.5334/johd.303 	
  
 ---
 
