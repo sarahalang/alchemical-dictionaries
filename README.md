@@ -8,6 +8,10 @@ A data paper about this dataset was published in:
 Lang, Sarah (2025) . "Towards a Data-Driven History of Lexicography: Two Alchemical Dictionaries in TEI-XML". *Journal of Open Humanities Data*, 11: 20, pp. 1–6. DOI: https://doi.org/10.5334/johd.303 	
  
 ---
+**Check out the dictionaries in this interactive search tool!**
+A Promptotype of an exploration/search interface by Christopher Pollin:
+https://chpollin.github.io/alchemical-dictionaries/search?q=lapis 
+---
 
 **Things to do** can be found in the [TODOs.md file](https://github.com/sarahalang/alchemical-dictionaries/blob/main/TODOs.md).
 
