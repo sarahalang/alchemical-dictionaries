@@ -9,7 +9,9 @@ Lang, Sarah (2025) . "Towards a Data-Driven History of Lexicography: Two Alchemi
  
 ---
 **Check out the dictionaries in this interactive search tool!**
+
 A Promptotype of an exploration/search interface by Christopher Pollin:
+
 https://chpollin.github.io/alchemical-dictionaries/search?q=lapis 
 ---
 
