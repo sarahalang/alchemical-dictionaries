@@ -6,7 +6,7 @@ This repository provides supplementary data and visualisations for two publicati
 
 This repository documents data and analyses presented in:
 
-- Sarah Lang, Jonas Müller-Laackmann, Hazem Lashen, and Farzad Mahootian, "Confabulated Transliterations? Managing the Lure of Plausibility in LLM-Detected Arabic Terms in an Early Modern Lexicon," in *Critical Approaches to Automated Text Recognition*, ed. Melissa Terras, Paul Gooding, Sarah Ames, and Joe Nockels (London: Facet Publishing, forthcoming 2026).
+- Sarah Lang, Jonas Müller-Laackman, Hazem Lashen, and Farzad Mahootian, "Confabulated Transliterations? Managing the Lure of Plausibility in LLM-Detected Arabic Terms in an Early Modern Lexicon," in *Critical Approaches to Automated Text Recognition*, ed. Melissa Terras, Paul Gooding, Sarah Ames, and Joe Nockels (London: Facet Publishing, forthcoming 2026).
 
 - Sarah Lang, Farzad Mahootian, and Hazem Lashen, "Mediating Alchemical Language across Terminologies and Cultures in Ruland's *Lexicon Alchemiae*: A Data-Driven Study of Arabic Terms," in the 2026 *Ambix* special issue *Computational Methods for the History of Alchemy and Chemistry*, co-edited by Guillermo Restrepo, Farzad Mahootian, and Sarah Lang.
 
