@@ -57,15 +57,15 @@ We leveraged an LLM's ability to handle noisy OCR outputs (the TEI-XML text was 
 
 We designed a multi-step LLM-based workflow:
 
-1. **Initial detection.** Each of the 3,200+ dictionary entries was processed separately to avoid context rot — the tendency of LLMs to lose attention with increasing input token length (Hong, Troynikov, and Huber 2025). The LLM was tasked with identifying potential Arabic-origin terms and outputting structured results including the detected string, normalised Latin and Arabic forms, Arabic script equivalents, English translations, and a confidence score. This step produced approximately 1,000 candidate rows, with a single headword potentially appearing multiple times.
+1. **Initial detection.** Each of the 3,200+ dictionary entries was processed separately to avoid context rot — the tendency of LLMs to lose attention with increasing input token length. The LLM was tasked with identifying potential Arabic-origin terms and outputting structured results including the detected string, normalised Latin and Arabic forms, Arabic script equivalents, English translations, and a confidence score. This step produced approximately 1,000 candidate rows, with a single headword potentially appearing multiple times.
 
 2. **Enrichment with external resources.** Candidate forms (in Arabic script, Latinised, or English variants) were searched in dedicated resources: web-scraped Wiktionary entries documenting Arabic-derived or -related terms, and the Arabic and Latin Glossary web resource (Hasse 2025). All retrieved evidence was stored alongside the LLM outputs.
 
-3. **LLM-based re-evaluation.** In a second judging step, the model received each row together with the dictionary spelling, normalised and lemmatised Latin and Arabic equivalents, the headword, the full entry, and the external evidence gathered in step 2. This enrichment positions the method similarly to Retrieval-Augmented Generation (RAG), which has been shown to improve LLM output quality, including specifically for Arabic (Abdelazim, Tharwat, and Mohamed 2023; El-Beltagy and Abdallah 2024). The model produced an irrelevance probability score, enabling prioritisation for human review.
+3. **LLM-based re-evaluation.** In a second judging step, the model received each row together with the dictionary spelling, normalised and lemmatised Latin and Arabic equivalents, the headword, the full entry, and the external evidence gathered in step 2. This enrichment positions the method similarly to Retrieval-Augmented Generation (RAG), which has been shown to improve LLM output quality, including specifically for Arabic. The model produced an irrelevance probability score, enabling prioritisation for human review.
 
 4. **Human verification.** Three human reviewers independently assessed the LLM outputs to produce a final verdict on each candidate term.
 
-This multi-step process, in which LLMs evaluate each other's outputs (cf. Raina, Liusie, and Gales 2024), is a common strategy for refining LLM-generated results and reducing the verification burden on human reviewers. For the full prompts used at each stage, see the appendix of the publications listed above.
+This multi-step process, in which LLMs evaluate each other's outputs, is a common strategy for refining LLM-generated results and reducing the verification burden on human reviewers. For the full prompts used at each stage, see the appendix of the publications listed above.
 
 ## Results Table
 
