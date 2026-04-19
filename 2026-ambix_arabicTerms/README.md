@@ -43,7 +43,7 @@ The analyses are based on Ruland's *Lexicon Alchemiae* encoded in TEI-XML as par
 
 > Sarah Lang (2025). "Towards a Data-Driven History of Lexicography: Two Alchemical Dictionaries in TEI-XML." *Journal of Open Humanities Data*, 11: 20, pp. 1–6. DOI: [10.5334/johd.303](https://doi.org/10.5334/johd.303)
 
-The TEI-XML encoding of Ruland contains approximately 3,200 dictionary entries. The text was produced via HTR (Handwritten Text Recognition) using the Noscemus GM OCR model in Transkribus, which has a very low character error rate but has not been fully proofread. For full details on the source data, its encoding, and contributors, see [`README-basis-xml-data.md`](README-basis-xml-data.md).
+The TEI-XML encoding of Ruland contains approximately 3,200 dictionary entries. The text was produced via HTR (Handwritten Text Recognition) using the Noscemus GM OCR model in Transkribus, which has a very low character error rate but has not been fully proofread. For full details on the source data, its encoding, and contributors, see [`README.md`]([README-basis-xml-data.md](https://github.com/sarahalang/alchemical-dictionaries/blob/main/README.md)).
 
 ## LLM-Based Arabic Detection Workflow
 
