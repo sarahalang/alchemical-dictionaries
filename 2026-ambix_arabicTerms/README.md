@@ -49,7 +49,7 @@ The TEI-XML encoding of Ruland contains approximately 3,200 dictionary entries. 
 
 ### Motivation
 
-We aimed to examine all entries of Ruland's *Lexicon Alchemiae* to automatically detect terms that may be Arabic or derived from Arabic. Many alchemical terms have Arabic origins — well-known examples such as *alcohol* (from Arabic الكحول *al-kuḥūl*) are relatively straightforward to identify, but detection becomes increasingly difficult for more obscure or domain-specific terms. The challenge is compounded by the fact that Latin transcription of Arabic was, and remains, non-standardised: Latinised Arabic terms often exhibit many variant forms, as Ruland's dictionary entries clearly show.
+We aimed to examine all entries of Ruland's *Lexicon Alchemiae* to automatically detect terms that may be Arabic or derived from Arabic. Many alchemical terms have Arabic origins. Well-known examples such as *alcohol* (from Arabic الكحول *al-kuḥūl*) are relatively straightforward to identify, but detection becomes increasingly difficult for more obscure or domain-specific terms. The challenge is compounded by the fact that Latin transcription of Arabic was non-standardised: Latinised Arabic terms often exhibit many variant forms, as Ruland's dictionary entries clearly show.
 
 We leveraged an LLM's ability to handle noisy OCR outputs (the TEI-XML text was not fully clean) and to process Latin-script transliterations that may or may not relate to Arabic. We explored whether an LLM-based approach could help detect less frequent or more obscure instances of Arabic borrowings that might escape conventional search methods.
 
