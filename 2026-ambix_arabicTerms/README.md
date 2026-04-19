@@ -16,6 +16,7 @@ This research derives from the 2025 *Alchemy of Global Partnership* workshop (v.
 
 The code and analyses were created by Hazem Lashen over a period of August 2025 to January 2026 (with the support of AI-coding tools like Codex). The LLMs used in the analysis are ChatGPT and Gemini. 
 The human review was undertaken by Sarah Lang, Farzad Mahootian and supported in parts by other scholars from NYU. 
+
 We are extremely grateful for the excellent project management support by Meenakshi Baker (NYU). 
 
 ## Repository Contents
