@@ -1,0 +1,24 @@
+What
+----
+Bucketed comparison of all dictionary entries versus those containing Arabic matches. Counts at the top of each bar show the total (cyan) and Arabic-bearing subset (orange).
+
+Data source: the reviewed extraction dataframe supplied to the script; metrics also draw on the TEI dictionary when available.
+
+How
+---
+This figure is generated inside `plots_entry_length_overview` by preparing the relevant pandas data structures and rendering the visual with seaborn/matplotlib, as illustrated in the code snippet below.
+
+Code
+----
+                    arabic + offset,
+                    f"{int(arabic)}",
+                    ha="center",
+                    fontsize=8,
+                    color="#8C2D04",
+                )
+    save_plot_with_explanation(
+        fig,
+        os.path.join(outdir, "entry_length_buckets.png"),
+        "Bucketed comparison of all dictionary entries versus those containing Arabic matches."
+        " Counts at the top of each bar show the total (cyan) and Arabic-bearing subset (orange).",
+    )

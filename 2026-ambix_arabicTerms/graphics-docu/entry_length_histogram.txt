@@ -1,0 +1,24 @@
+What
+----
+Distribution of entry lengths measured in word tokens across the full Ruland dictionary. Highlights the uneven mix of very short and very long entries.
+
+Data source: the reviewed extraction dataframe supplied to the script; metrics also draw on the TEI dictionary when available.
+
+How
+---
+This figure is generated inside `plots_entry_length_overview` by preparing the relevant pandas data structures and rendering the visual with seaborn/matplotlib, as illustrated in the code snippet below.
+
+Code
+----
+    fig, ax = plt.subplots(figsize=(10, 5))
+    sns.histplot(entries["word_count"], bins=60, color="#4C78A8", ax=ax)
+    ax.set_title("Ruland Entry Word Counts (All Entries)")
+    ax.set_xlabel("entry length (words)")
+    ax.set_ylabel("entries")
+    ax.set_yscale("linear")
+    save_plot_with_explanation(
+        fig,
+        os.path.join(outdir, "entry_length_histogram.png"),
+        "Distribution of entry lengths measured in word tokens across the full Ruland dictionary."
+        " Highlights the uneven mix of very short and very long entries.",
+    )

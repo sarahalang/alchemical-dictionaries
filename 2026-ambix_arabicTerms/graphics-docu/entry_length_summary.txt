@@ -1,0 +1,23 @@
+What
+----
+Summary table of entry-length buckets with counts and the percentage of entries that contain at least one Arabic detection.
+
+Data source: the reviewed extraction dataframe supplied to the script; metrics also draw on the TEI dictionary when available.
+
+How
+---
+This table is assembled inside `plots_entry_length_overview` by reshaping and aggregating the pandas dataframe and exporting the result with `DataFrame.to_csv`, as shown in the snippet below.
+
+Code
+----
+    )
+    summary = grouped.copy()
+    if "length_bucket" in summary.columns:
+        summary["length_bucket"] = summary["length_bucket"].astype(str)
+    summary = summary.fillna(0)
+    write_table_with_explanation(
+        summary,
+        os.path.join(outdir, "entry_length_summary.csv"),
+        "Summary table of entry-length buckets with counts and the percentage of entries that"
+        " contain at least one Arabic detection.",
+    )

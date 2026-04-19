@@ -1,0 +1,23 @@
+What
+----
+Tabular view of total entries per initial letter alongside the number and percentage that include Arabic terms.
+
+Data source: the reviewed extraction dataframe supplied to the script; metrics also draw on the TEI dictionary when available.
+
+How
+---
+This table is assembled inside `plots_headword_letter_coverage` by reshaping and aggregating the pandas dataframe and exporting the result with `DataFrame.to_csv`, as shown in the snippet below.
+
+Code
+----
+        fig,
+        os.path.join(outdir, "headword_letter_coverage.png"),
+        "Absolute counts (top) and relative share (bottom) of Ruland dictionary entries that"
+        " contain Arabic detections, grouped by the headword's initial letter.",
+    )
+    write_table_with_explanation(
+        grouped.reset_index().rename(columns={"first_letter": "letter"}),
+        os.path.join(outdir, "headword_letter_coverage.csv"),
+        "Tabular view of total entries per initial letter alongside the number and percentage"
+        " that include Arabic terms.",
+    )
