@@ -138,5 +138,8 @@ Please refer to the individual publications for terms of reuse of this data.
 
 - Lang, S. (2025). "Towards a Data-Driven History of Lexicography: Two Alchemical Dictionaries in TEI-XML." *Journal of Open Humanities Data*, 11: 20, pp. 1–6. DOI: [10.5334/johd.303](https://doi.org/10.5334/johd.303).
 
-For references, please consult the publications listed above.
+For more references, please consult the publications listed above.
+
+---
+
 This documentation was created with the help of Claude Opus 4.6. 
