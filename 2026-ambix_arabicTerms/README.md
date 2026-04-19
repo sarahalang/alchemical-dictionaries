@@ -14,7 +14,7 @@ This repository documents data and analyses presented in:
 
 This research derives from the 2025 *Alchemy of Global Partnership* workshop (v.1), funded by New York University (NYU) Abu Dhabi's Arts+Humanities Research Platform, with additional support from the NYU Global Research Initiative and NYU Dean of Liberal Studies. A second *Alchemy of Global Partnership* workshop, scheduled for June 15–18, 2026 at NYU's Prague campus, is supported by a New York University Global Opportunity Grant, with additional support from NYU Dean of Liberal Studies.
 
-The code and analyses were created by Hazem Lashen over a period of 2025-08 -- 2026-01 (with the support of AI-coding tools like Codex). The LLMs used in the analysis are ChatGPT and Gemini. 
+The code and analyses were created by Hazem Lashen over a period of August 2025 to January 2026 (with the support of AI-coding tools like Codex). The LLMs used in the analysis are ChatGPT and Gemini. 
 The human review was undertaken by Sarah Lang, Farzad Mahootian and supported in parts by other scholars from NYU. 
 We are extremely grateful for the excellent project management support by Meenakshi Baker (NYU). 
 
