@@ -109,6 +109,10 @@ The `graphics-docu/` directory contains figures and accompanying data characteri
 
 Distribution of entry lengths (in word tokens) across all ~3,200 Ruland dictionary entries. The majority of entries are very short (9 words or fewer), but a long tail of extensive entries exists, some exceeding 2,000 words.
 
+In order to make the graphic more informative, we updated it to the following:
+
+![Updated entry length histogram](graphics-docu/Ruland-Arabic-updated-entry_length_histogram.png)
+
 ### Entry Length Buckets vs Arabic Matches
 
 ![Entry length buckets vs Arabic matches](graphics-docu/entry_length_buckets.png)
